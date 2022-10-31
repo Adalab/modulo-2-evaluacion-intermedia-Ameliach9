@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Evaluación Intermedia</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <h1 class="header__title">Los anillos del poder</h1>
+    </header>
+    <main class="main">
+        <form class="main__wrapper js-form">
+            <label for="your-number">Eres un jugador del ejército del bien, no olvides tu misión de ganar la batalla</label>
+            <select name="razas" id="razas" multiple class="js-choose-race">
+                <option value="" class="choose">Seleccione la raza con que vas a jugar</option>
+                <option class="pelosos" value="1" >Pelosos con fuerza</option>
+                <option class="surenos" value="2" >Sureños buenos con fuerza</option>
+                <option class="enanos" value="3" >Enanos con fuerza</option>
+                <option class="numeno" value="4" >Númenóreanos con fuerza</option>
+                <option class="elfos" value="5" >Elfos con fuerza</option>
+              </select>
+            <button class="main__button js-button">Batalla</button>
+        </form>
+        <p class="battle_begin js-battle">¡Comienza la batalla!</p>
+    </main>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
