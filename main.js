@@ -5,7 +5,6 @@ const chooseRace = document.querySelector('.js-choose-race');
 const button = document.querySelector('.js-button');
 const battle = document.querySelector('.js-battle');
 
-
 const raceSurenosMalos = 2;
 const raceOrcos = 2;
 const raceGoblins = 2;
@@ -52,11 +51,11 @@ const chooseEvilRace = () => {
 
 function compareResult(){
     if (userChoice < chooseEvilRace){
-        battle.innerHTML = '¡Ha ganado el Ejército del Mal! Vuelve a Intentarlo.';
+        battle.innerHTML = '¡Ha ganado el Ejército del Mal! Vuelve a Intentarlo';
     }else if (userChoice === chooseEvilRace){
         battle.innerHTML = 'Empate';
     }else{
-        battle.innerHTML = '¡Ha ganado el Ejército del Bien! Enhorabuena.';
+        battle.innerHTML = '¡Ha ganado el Ejército del Bien! Enhorabuena';
     }
 }
 
